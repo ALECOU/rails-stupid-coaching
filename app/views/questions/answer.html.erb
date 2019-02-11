@@ -1,0 +1,14 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+<div class="conversation">
+  <p><%= @question %></p>
+  <p>-You</p>
+</div>
+
+<div class="yellow-background conversation">
+  <p><%= @answer %></p>
+  <p>-Your coach</p>
+</div>
+
+<%= link_to '<button type="button" class="btn btn-primary">Back to question</button>'.html_safe, ask_path %>
